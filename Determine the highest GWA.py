@@ -7,6 +7,8 @@ with open("Name and gwa.txt") as achiever:
 for line in name_gwa:
     name,gwa = line.split(",")
 
+    #Convert the gwa into a float
+    gwa = float(gwa)
 #Input the highest grade a student can get
 highest_grade = 5.00
 
