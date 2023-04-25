@@ -10,11 +10,15 @@ for line in name_gwa:
     #Convert the gwa into a float
     gwa = float(gwa)
 #Input the highest grade a student can get
-highest_grade = 5.00
+highest_grade = 5
 
 #compare the gwa with the max grade
 if gwa < highest_grade:
     highest_grade = gwa
 
+    #to output the name of the student with highest grade
+    highest_student = name
+
 #Print the highest grade
 print("The highest GWA is:", highest_grade)
+print("The name of the Highest student is:", name)
