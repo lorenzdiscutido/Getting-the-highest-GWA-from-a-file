@@ -20,5 +20,8 @@ if gwa < highest_grade:
     highest_student = name
 
 #Print the highest grade
+print("")
 print("The highest GWA is:", highest_grade)
+print("")
 print("The name of the Highest student is:", name)
+print("")
