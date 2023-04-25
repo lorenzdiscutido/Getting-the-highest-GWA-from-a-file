@@ -6,3 +6,10 @@ with open("Name and gwa.txt") as achiever:
 #Using the split function, separate the name and gwa
 for line in name_gwa:
     name,gwa = line.split(",")
+
+#Input the highest grade a student can get
+highest_grade = 5.00
+
+#compare the gwa with the max grade
+if gwa < highest_grade:
+    highest_grade = gwa
