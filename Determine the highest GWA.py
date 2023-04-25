@@ -13,3 +13,6 @@ highest_grade = 5.00
 #compare the gwa with the max grade
 if gwa < highest_grade:
     highest_grade = gwa
+
+#Print the highest grade
+print("The highest GWA is:", highest_grade)
